@@ -1,0 +1,18 @@
+{
+  "options": [
+    {
+      "type": "slider",
+      "min": "0",
+      "max": "100",
+      "start": "50",
+      "label": "Blur Strength"
+    },
+    {
+      "type": "slider",
+      "min": "0",
+      "max": "100",
+      "start": "50",
+      "label": "Another one"
+    }
+  ]
+}
