@@ -28,8 +28,8 @@ import OptionMenu from 'lib/OptionMenu.svelte';
 
 You need to bind a data object to the component like this:
 
-```html
-<OptionMenu bind:data="{config}"></OptionMenu>
+```svelte
+<OptionMenu bind:data={config}></OptionMenu>
 ```
 
 See below for how the data object should look like.
