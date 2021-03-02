@@ -84,7 +84,7 @@ So overall, the data object would look like this:
 
 ```svelte
 <script>
-  import OptionMenu from 'path/to/file/called/OptionMenu.svelte";
+  import OptionMenu from 'path/to/file/called/OptionMenu.svelte';
 
   let data = {
     options: [{
