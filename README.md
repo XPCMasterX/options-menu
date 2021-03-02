@@ -1,6 +1,6 @@
 # Options Component
 
-A Svelte Component for options. For use with Svelte only (as far as I know).
+A Svelte Component for options. For use with _Svelte_ only (as far as I know).
 
 # Usage
 

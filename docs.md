@@ -84,39 +84,15 @@ So overall, the data object would look like this:
 
 ```html
 <script>
-  /* Import component */
-  import OptionMenu from 'path/to/OptionMenu.svelte";
+  import OptionMenu from 'path/to/file/called/OptionMenu.svelte";
 
   let data = {
     options: [{
-      /*
-       @required
-       Possible values so far: [range]
-      */
-      type: "range"
-      /*
-       @required for `type: range`
-       Must be smaller than `max`
-      */
+      type: "range",
       min: "0",
-      /*
-       @required for `type: range`
-       Has to be bigger than `min`
-      */
       max: "100",
-      /*
-       @required for `type: range`
-       Must be in between `min` -> `max`
-      */
       start: "50",
-      /*
-       @required for `type: range`
-      */
       label: "Slider",
-      /*
-       @required
-       Must be unique or it won't work
-      */
       id: "slider-one"
     }],
   };
