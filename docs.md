@@ -82,7 +82,7 @@ let data = {
 
 So overall, the data object would look like this:
 
-```html
+```svelte
 <script>
   import OptionMenu from 'path/to/file/called/OptionMenu.svelte";
 
